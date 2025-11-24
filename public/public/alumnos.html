@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Alumnos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2>EduManager</h2>
+    <a href="#" class="active">Dashboard</a>
+    <a href="#">Alumnos</a>
+    <a href="#">Clases</a>
+    <a href="#">Evaluaciones</a>
+  </div>
+
+  <div class="container">
+    <h1>Gestión de Alumnos</h1>
+
+    <div class="table-box">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody id="alumnos-body"></tbody>
+      </table>
+    </div>
+
+    <div class="form-box">
+      <h3>Agregar Alumno</h3>
+      <input id="nombre" type="text" placeholder="Nombre">
+      <input id="email" type="email" placeholder="Email">
+      <button id="btnAgregar">Agregar</button>
+    </div>
+
+  </div>
+
+  <script src="alumnos.js"></script>
+</body>
+</html>
