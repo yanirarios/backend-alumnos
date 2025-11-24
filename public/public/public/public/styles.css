@@ -1,0 +1,76 @@
+body {
+  background-color: #fdebf3;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #f8c9dd;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+.sidebar h2 {
+  color: #ad4164;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 10px;
+  margin: 8px 0;
+  color: #ad4164;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background-color: #f4b6d1;
+}
+
+.container {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  color: #a63a5f;
+}
+
+.table-box {
+  background: #ffe8f0;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.student-tag {
+  background: #ffecf4;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: #a63a5f;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #e6a8c7;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #e48fb0;
+  border: none;
+  padding: 12px 30px;
+  color: white;
+  border-radius: 10px;
+}
